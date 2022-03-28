@@ -1,14 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
+
+const a = [<li>one</li>, <li>three</li>, <li>four</li>]
 export default function MyComponent() {
-  const first = ["tomato", "onion", "potato"];
-  const second = ["pink"];
-  const third = [];
-  // ==============================
-  const [firstState] = useState(["tomato", "onion", "potato"]);
-  const [secondState] = useState(["pink"]);
-  const [thirdState] = useState([]);
+  const [b] = useState([<li>state one</li>, <li>state two</li>, <li>state three</li>])
   return (
     <div className="p-6">
       ⚒️⚒️⚒️
