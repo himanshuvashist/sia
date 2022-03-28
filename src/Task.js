@@ -8,9 +8,6 @@ export default function Task() {
         <p>Show arrays present inside the Mycomponent.js into the DOM.</p>
         <br />
         <p>see MyComponent.js file</p>
-        <strong>
-          show all three array's item in DOM below, inside html tags
-        </strong>
       </div>
     </div>
   );
