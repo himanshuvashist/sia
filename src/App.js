@@ -6,7 +6,7 @@ import MyComponentWrapper from "./MyComponentWrapper";
 function App() {
   return (
     <div className="App bg-slate-50 h-screen">
-      <div className="grid grid-rows-2">
+      <div className="grid grid-rows-2 container mx-auto">
         <div className="row-span-12">
           <Task />
         </div>
