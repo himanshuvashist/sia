@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function MyComponent() {
+  const [inputVal, setInputVal] = useState("");
   return (
     <div className="p-6">
-      ⚒️⚒️⚒️
-      <div>go inside the MyComponent.js file to edit me.🙃</div>
+      <input onChange={(e) => setInputVal(e.target.value)} />
+      <div>{inputVal}</div>
     </div>
   );
 }
